@@ -1,0 +1,67 @@
+{
+    "info": [
+        {
+            "name": "bsc",
+            "type": "evm",
+            "rpc": "https://bsc-dataseed.bnbchain.org",
+            "decimals": 18,
+            "coin": "ETH",
+            "addresses": {
+                "btp-deployer": "0x1903c36e80d6102dea1b6fcc3a491a6fb0fcd8a7",
+                "xcall-deployer": "0xeCeAD2D504b364dB186898D7089a06434648BAe6",
+                "icon-btp-relay": "0xdc0f41f67a7ac1ff37136ffde15df3878043b9c8"
+            }
+        },
+        {
+            "name": "eth",
+            "type": "evm",
+            "rpc": "https://ethereum.publicnode.com",
+            "decimals": 18,
+            "coin": "BNB",
+            "addresses": {
+                "btp-deployer": "0x76596e0707408a4a82cd0c20003df4bd612f9734",
+                "xcall-deployer": "0xeCeAD2D504b364dB186898D7089a06434648BAe6",
+                "icon-btp-relay": "0x1695666b521eedb0e0c29987a5443fc6b807ae44"
+            }
+        },
+        {
+            "name": "icon",
+            "rpc": "https://ctz.solidwallet.io/api/v3/icon_dex",
+            "type": "icon",
+            "decimals": 18,
+            "coin": "ICX",
+            "addresses": {
+                "btp-deployer": "hx3af69f7d7aeb819a68f6b5675e4c8c0c9a0528c2",
+                "xcall-deployer": "hxd84314ce364656a04d13f948fa32889fe1dee49e",
+                "eth-btp-relay": "hxe0ff97b1153ec398228c66db68468e42cc4f481d",
+                "bsc-btp-relay": "hxea116f541c1b343de51763011f02fbcdc0748f89",
+                "ibc-relay": "hxc2ab13a21e75f7820be311fb92b3408ef988c0b1",
+                "ibc-deployer": "hxef076e546d9a506e4925b2776805153d94bf45fc"
+            }
+        },
+        {
+            "name": "archway",
+            "rpc": "https://api.mainnet.archway.io",
+            "type": "cosmos",
+            "decimals": 18,
+            "coin": "AARCH",
+            "addresses": {
+                "ibc-deployer": "archway1892ylcnlhr8yw72ly6twcwjp32nf4n4kxl4vef",
+                "xcall-deployer": "archway16zlcafn6728ywvlhqm8j4nu2605hnewcza63wg",
+                "ibc-relay": "archway1xe0s2vfk3rswh90zcly90s2f63asfl85c6a6za"
+            }
+        },
+        {
+            "name": "neutron",
+            "rpc": "https://api.novel.remedy.tm.p2p.org",
+            "type": "cosmos",
+            "decimals": 6,
+            "coin": "UNTRN",
+            "addresses": {
+                "ibc-deployer": "neutron1892ylcnlhr8yw72ly6twcwjp32nf4n4khtq2fe",
+                "xcall-deployer": "neutron16zlcafn6728ywvlhqm8j4nu2605hnewcnf0h7c",
+                "ibc-relay": "neutron105ykcqqf5c8yr9x8r778us2ymtj0hp9ga2vhnz"
+            }
+        }
+    ]
+}
